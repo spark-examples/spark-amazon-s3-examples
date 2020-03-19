@@ -11,9 +11,9 @@ object ParquetAWSExample extends App{
       .appName("SparkByExamples.com")
       .getOrCreate()
     spark.sparkContext
-      .hadoopConfiguration.set("fs.s3a.access.key", "AKIA3EEY5YGIE4JSQJZU")
+      .hadoopConfiguration.set("fs.s3a.access.key", "AKIA3EEY5YUYIGIE4JSQJZU")
     spark.sparkContext
-      .hadoopConfiguration.set("fs.s3a.secret.key", "BhhNlJwGyVWCjnjuVQA16wYbpzi6Myg5XxURv8lW")
+      .hadoopConfiguration.set("fs.s3a.secret.key", "BhhNlJwGyVWCjnjuVQA1sdfsdf6wYbpzi6Myg5XxURv8lW")
     spark.sparkContext
       .hadoopConfiguration.set("fs.s3a.endpoint", "s3.amazonaws.com")
    // spark.sparkContext
